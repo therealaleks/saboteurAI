@@ -1,0 +1,68 @@
+# Server version 0.08 running on nosferatu:8123
+# Game ID: 152
+# Board class: Saboteur.SaboteurBoard
+# Timeout: 20000
+# First Move Timeout: 30000
+# Date: Sun Apr 26 23:26:49 EDT 2020
+# Player 1: Player-0, 'SaboteurAI', running on nosferatu
+# Player 2: Player-1, 'RandomPlayer', running on nosferatu
+START Player-0 SaboteurAI
+START Player-1 RandomPlayer
+BoardInit:Tile:8,Tile:0,Map,Tile:1,Tile:7,Tile:10,Tile:8,Tile:12,Map,Tile:11,Tile:6,Map,Destroy,Tile:7,Tile:5,Destroy,Tile:7,Bonus,Tile:0,Map,Tile:5,Tile:0,Tile:10,Tile:7,Tile:9,Tile:6,Destroy,Tile:6,Tile:9,Tile:13,Tile:9,Tile:6,Malus,Tile:9,Map,Tile:9,Tile:5,Map,Tile:2,Bonus,Tile:5-Tile:7,Tile:4,Bonus,Tile:15,Tile:10,Tile:6,Tile:0-Tile:8,Tile:8,Tile:14,Malus,Tile:3,Bonus,Tile:8-Tile:hidden1,Tile:hidden2,Tile:nugget
+Drop 2 0 1
+Malus 0 0 0
+Drop 1 0 1
+Drop 2 0 0
+Drop 2 0 1
+Drop 2 0 0
+Map 12 5 1
+Drop 5 0 0
+Drop 1 0 1
+Drop 6 0 0
+Drop 1 0 1
+Drop 6 0 0
+Drop 4 0 1
+Map 12 3 0
+Map 12 7 1
+Tile:8 4 5 0
+Drop 1 0 1
+Tile:8 6 5 0
+Drop 2 0 1
+Tile:8 7 5 0
+Destroy 7 5 1
+Drop 6 0 0
+Drop 0 0 1
+Tile:0 7 5 0
+Drop 2 0 1
+Destroy 4 5 0
+Drop 0 0 1
+Tile:0 8 5 0
+Drop 4 0 1
+Tile:6 9 5 0
+Drop 3 0 1
+Drop 6 0 0
+Destroy 9 5 1
+Tile:6 9 5 0
+Drop 0 0 1
+Tile:6 10 5 0
+Map 12 7 1
+Tile:7 11 5 0
+Drop 0 0 1
+Drop 6 0 0
+Drop 4 0 1
+Tile:7_flip 11 6 0
+Drop 0 0 1
+Drop 4 0 0
+Drop 4 0 1
+Tile:10 6 4 0
+Drop 2 0 1
+Tile:9 4 5 0
+Drop 0 0 1
+Drop 2 0 0
+Drop 0 0 1
+Drop 0 0 0
+Drop 1 0 1
+Drop 0 0 0
+Drop 0 0 1
+GAMEOVER DRAW
+# Game ended: Sun Apr 26 23:26:50 EDT 2020
