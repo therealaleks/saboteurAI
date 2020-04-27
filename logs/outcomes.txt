@@ -163,3 +163,8 @@
 163,RandomPlayer,SaboteurAI,GAMEOVER DRAW,NOBODY,56,game00163.log,
 164,SaboteurAI,RandomPlayer,0,SaboteurAI,33,game00164.log,
 165,RandomPlayer,SaboteurAI,1,SaboteurAI,40,game00165.log,
+166,Human,SaboteurAI,1,SaboteurAI,26,game00166.log,
+167,SaboteurAI,SaboteurAI,0,SaboteurAI,37,game00167.log,
+168,Human,SaboteurAI,1,SaboteurAI,18,game00168.log,ILLEGAL MOVE: Player 0, CardUsed: (Map), PosOfUse: (12, 5)
+169,SaboteurAI,Human,0,SaboteurAI,21,game00169.log,
+170,SaboteurAI,Human,0,SaboteurAI,17,game00170.log,
