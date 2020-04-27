@@ -87,7 +87,6 @@ public class StudentPlayer extends SaboteurPlayer {
     public Move moveHelper(float bench, SaboteurBoardState s){
         float maxTile=0;
         SaboteurMove maxMove=null;
-        SaboteurMove maxDrop=null;
         //Iterate through all legal moves...
         for (SaboteurMove move : s.getAllLegalMoves()){
             StudentState ss = new StudentState(s);
@@ -185,12 +184,12 @@ public class StudentPlayer extends SaboteurPlayer {
             else if (cardName.equals("Drop")){
                 int x=move.getPosPlayed()[0];
                 if (s.getPlayerCardsForDisplay(ss.turnplayer).get(x).getName().split(":")[0].equals("Map")){
-                    maxDrop=move;
+                    return move;
                 }
                 if (s.getPlayerCardsForDisplay(ss.turnplayer).get(x).getName().split(":")[0].equals("Tile")){
                     String type=s.getPlayerCardsForDisplay(ss.turnplayer).get(x).getName().split(":")[1];
                     if (type.equals("1") || type.equals("11") || type.equals("11_flip") || type.equals("12") || type.equals("12_flip") || type.equals("13") ||  type.equals("14_flip") || type.equals("14") ||  type.equals("15") || type.equals("2") ||  type.equals("2_flip") || type.equals("3") ||  type.equals("3_flip") || type.equals("4") ||  type.equals("4_flip") ){
-                        maxDrop= move;
+                        return move;
                     }
                 }
             }
@@ -198,9 +197,6 @@ public class StudentPlayer extends SaboteurPlayer {
         //return move which will yield the highest board state in two moves (only if that board state is more than the current state.
         if (maxTile>bench) {
             return maxMove;
-        }
-        if (maxDrop!=null) {
-            return maxDrop;
         }
         //turns out random IS the best we can do :(
         return null;
