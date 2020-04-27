@@ -11,7 +11,7 @@ Update: 23/03:
     
 The Autoplay class seems in fact to be working  - no update is needed (was simply a problem on my side): just make sure to have everything well compiled (easy on eclipse).
 
-Thank you for your comments and help to spot these mistakes.
+Thank you for your comments and help to spot these mistakes. 
 
 Good luck,
 
